@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Image_Slider</title>
+  </head>
+  <body>
+    <!-- This is a simple Image slider which use most of the vanilla js knowledge, A good project for bigenner. to Exercise the concept -->
+    <!-- This container hold the whole content -->
+    <div class="container">
+      <!-- This is the top container which contains the navigation arrow and the image div. -->
+      <div class="top">
+        <!-- The is the left arrow png -->
+        <img src="./img/arrow-png.png" class="arrow left" alt="" />
+        <!-- This is the slider Container which contain all the image -->
+        <div class="frames">
+          <div class="slider">
+            <img src="./img/pic1.jpg" class="img" alt="" />
+            <img src="./img/pic2.jpg" class="img" alt="" />
+            <img src="./img/pic3.jpg" class="img" alt="" />
+            <img src="./img/pic4.jpg" class="img" alt="" />
+            <img src="./img/pic5.jpg" class="img" alt="" />
+            <img src="./img/pic6.jpg" class="img" alt="" />
+          </div>
+        </div>
+        <!-- This is the right arrow png -->
+        <img src="./img/arrow-png.png" class="arrow right" alt="" />
+      </div>
+      <!-- This is the bottom div which containes the small circle at the bottom of the slider. They are dynmically injected through js. -->
+      <div class="bottom"></div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
